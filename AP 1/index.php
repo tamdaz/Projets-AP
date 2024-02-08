@@ -3,12 +3,18 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="stylesheet" href="assets/index.css" />
+
         <title>Geekzone</title>
     </head>
     <body>
-        <?php include "./composants/header.php" ?>
-        91150
-        sharmaèièiè-iè-
-        <?php include "./composants/footer.php" ?>
+        <div class="page">
+            <?php include "./composants/header.php" ?>
+            <div class="geekzone-container">
+                Hello world
+            </div>
+            <?php include "./composants/footer.php" ?>
+        </div>
     </body>
 </html>

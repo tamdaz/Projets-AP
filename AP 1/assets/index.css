@@ -1,7 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+:root {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.page {
+    min-height:100vh;
+	display:flex;
+	flex-direction:column; 
+}
+
 .geekzone-header {
     background-color: #000;
+    color: white;
+    padding: 16px 32px;
 }
 
 .geekzone-footer {
     background-color: #000;
+    color: white;
+    padding: 16px 32px;
+}
+
+.geekzone-container {
+    flex-grow: 1;
+    width: 1000px;
+    padding: 32px 0;
+    margin: 0 auto;
 }
