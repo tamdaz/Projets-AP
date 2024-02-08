@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
-:root {
+:root, input, button {
     font-family: 'Inter', sans-serif;
 }
 
@@ -92,4 +92,9 @@ body {
     width: 1000px;
     padding: 32px 0;
     margin: 0 auto;
+}
+
+.geekzone-search-box {
+    border: 1px solid #00000025;
+    padding: 8px;
 }

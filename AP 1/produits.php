@@ -6,13 +6,15 @@
 
         <link rel="stylesheet" href="/assets/css/index.css" />
 
-        <title>Bienvenue sur GeekZone</title>
+        <title>Geekzone</title>
     </head>
     <body>
         <div class="page">
             <?php include "./composants/header.php" ?>
             <div class="geekzone-container">
-                <h1>Bienvenue sur Geekzone</h1>
+                <div class="geekzone-search-box">
+                    <input type="text" placeholder="Que voulez-vous chercher ?" />
+                </div>
             </div>
             <?php include "./composants/footer.php" ?>
         </div>
