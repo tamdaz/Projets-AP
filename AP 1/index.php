@@ -12,7 +12,7 @@
         <div class="page">
             <?php include "./composants/header.php" ?>
             <div class="geekzone-container">
-                <h1>Seledsfdskfok</h1>
+                <h1>Bienvenue sur Geekzone</h1>
             </div>
             <?php include "./composants/footer.php" ?>
         </div>

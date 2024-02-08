@@ -47,6 +47,15 @@ body {
     color: white;
 }
 
+.geekzone-header > nav > a:hover {
+    opacity: 0.8;
+}
+
+.geekzone-header > nav > a:active {
+    opacity: 0.6;
+}
+
+
 .geekzone-footer > nav {
     display: flex;
     margin: 0;
@@ -59,6 +68,14 @@ body {
 .geekzone-footer > nav > a {
     text-decoration: none;
     color: white;
+}
+
+.geekzone-footer > nav > a:hover {
+    opacity: 0.8;
+}
+
+.geekzone-footer > nav > a:active {
+    opacity: 0.6;
 }
 
 .geekzone-footer {
