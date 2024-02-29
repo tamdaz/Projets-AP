@@ -12,7 +12,7 @@
         <div class="page">
             <?php include "./composants/header.php" ?>
             <div class="geekzone-container">
-                <?php $produit = (require "./données/produits.php")[$_GET['id'] + 1] ?>
+                <?php $produit = (require "./données/produits.php")[$_GET['id'] - 1] ?>
 
                 <div class="geekzone-grid-2">
                     <img src="/assets/img/produits/<?= $produit['categorie'] . "/" . $produit['image'] ?>" width="100%" />
