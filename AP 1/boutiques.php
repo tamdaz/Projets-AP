@@ -21,7 +21,16 @@
                             />
                         </div>
                         <div>
-                            
+                            <p>Adresse: <?=
+                            $boutique['adresse'] ?></p>
+                            <p>Code postal: <?=
+                            $boutique['codePostal'] ?></p>
+                            <p>Ville: <?=
+                            $boutique['ville'] ?></p>
+                            <p>Numéro de téléphone: <?=
+                            $boutique['numeroTelephone'] ?></p>
+                            <p>Horaire: <?=
+                            $boutique['horaire'] ?></p>
                         </div>
                     </div>
                 <?php endforeach; ?>
