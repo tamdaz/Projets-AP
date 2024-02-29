@@ -21,8 +21,15 @@
                 </select>
                 <button class="geekzone-button">Rechercher</button>
             </div>
-            <div class="geekzone-container" style="transform: translateY(-50px)">
-                
+            <div class="geekzone-container">
+                <?php include "./composants/produit.php"; ?>
+                <?php $produits = require "./données/produits.php" ?>
+
+                <div class="geekzone-grid-3">
+                    <?php foreach ($produits as $produit): ?>
+                        <?php echo creerProduit($produit) ?>
+                    <?php endforeach; ?>
+                </div>
             </div>
             <?php include "./composants/footer.php" ?>
         </div>
