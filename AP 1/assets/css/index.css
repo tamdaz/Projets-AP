@@ -147,3 +147,16 @@ body {
     border: 0;
     padding: 6px 10px;
 }
+
+.geekzone-grid-2 {
+    gap: 16px;
+    display: grid;
+    margin-bottom: 8px;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.geekzone-grid-2 > div > img {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16 / 9;
+}

@@ -10,14 +10,21 @@
         <div class="page">
             <?php include "./composants/header.php" ?>
             <div class="geekzone-container">
-                <h1>Recherche</h1>
-                <img src="/assets/img/boutique_albertville.jpg" alt="Boutique Albertville" />
-                <img src="/assets/img/boutique_annecy.jpg" alt="Boutique Annecy" />
-                <img src="/assets/img/boutique_chambery.jpg" alt="Boutique Chambery" />
-                <img src="/assets/img/boutique_clermont.jpeg" alt="Boutique Clermont" />
-                <img src="/assets/img/boutique_grenoble.jpg" alt="Boutique Grenoble" />
-                <img src="/assets/img/boutique_lyon.jpg" alt="Boutique Lyon" />
-                <img src="/assets/img/boutique_valence.jpg" alt="Boutique Valence" />
+                <h1>Boutiques</h1>
+                <?php $boutiques = require "./données/boutiques.php"; ?>
+                <?php foreach($boutiques as $boutique): ?>
+                    <div class="geekzone-grid-2">
+                        <div>
+                            <img
+                                src="<?= $boutique['imageBoutique'] ?>"
+                                alt="Boutique <?= $boutique['ville'] ?>"
+                            />
+                        </div>
+                        <div>
+                            
+                        </div>
+                    </div>
+                <?php endforeach; ?>
             </div>
             <?php include "./composants/footer.php" ?>
         </div>
