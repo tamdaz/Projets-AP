@@ -27,12 +27,3 @@ return [
         "categorie" => "gadget"
     ]
 ];
-
-// [
-//     "id" => 1,
-//     "nom" => "",
-//     "description" => "",
-//     "detail" => "",
-//     "prix" => 0.0,
-//     "image" => ""
-// ];

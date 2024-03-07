@@ -5,9 +5,9 @@ function creerProduit(array $produit)
     [
         'id' => $id,
         'image' => $imgUrl,
-        'categorie' => $categorie,
         'prix' => $prix,
-        'nom' => $nom
+        'nom' => $nom,
+        'categorie' => $categorie
     ] = $produit;
 
     $prix = number_format($prix, 2, ',', ' ');
