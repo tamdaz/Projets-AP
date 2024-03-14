@@ -1,6 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+@import 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap';
 
-:root, input, button {
+@import url("composants/header.css");
+@import url("composants/footer.css");
+
+@import url("composants/button.css");
+@import url("composants/input.css");
+@import url("composants/select.css");
+
+@import url("representation/grille.css");
+
+@import url("vues/produit.css");
+@import url("vues/recherche.css");
+
+:root, input, button, select, option {
     font-family: 'Inter', sans-serif;
 }
 
@@ -13,78 +25,9 @@ body {
 }
 
 .page {
-    min-height:100vh;
-	display:flex;
-	flex-direction:column;
-}
-
-.geekzone-header {
-    background-color: #000;
-    color: white;
-    padding: 16px 32px;
-
-    display: flex;
-    position: relative;
-}
-
-.geekzone-header > .geekzone-logo {
-    position: absolute;
-    width: 128px;
-}
-
-.geekzone-footer > .geekzone-logo {
-    width: 200px;
-}
-
-.geekzone-header > nav {
-    display: flex;
-    margin: 0;
-    gap: 16px;
-}
-
-.geekzone-header > nav > a {
-    text-decoration: none;
-    color: white;
-}
-
-.geekzone-header > nav > a:hover {
-    opacity: 0.8;
-}
-
-.geekzone-header > nav > a:active {
-    opacity: 0.6;
-}
-
-
-.geekzone-footer > nav {
-    display: flex;
-    margin: 0;
-    gap: 16px;
-
-    justify-content: center;
-    padding-top: 16px;
-}
-
-.geekzone-footer > nav > a {
-    text-decoration: none;
-    color: white;
-}
-
-.geekzone-footer > nav > a:hover {
-    opacity: 0.8;
-}
-
-.geekzone-footer > nav > a:active {
-    opacity: 0.6;
-}
-
-.geekzone-footer {
-    background-color: #000;
-    color: white;
-    padding: 16px 32px;
-
-    text-align: center;
-    position: relative;
+    min-height: 100vh;
+	display: flex;
+	flex-direction: column;
 }
 
 .geekzone-container {
@@ -92,122 +35,4 @@ body {
     width: 1000px;
     padding: 32px 0;
     margin: 0 auto;
-}
-
-.geekzone-search-box {
-    border: 1px solid #00000025;
-    padding: 16px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 8px;
-
-    transform: translateY(-32px);
-
-    width: calc(1000px - 34px);
-    margin: 0 auto;
-    background-color: white;
-}
-
-.geekzone-button {
-    background-color: #00E676;
-    border-radius: 50px;
-    border: 0;
-    padding: 6px 10px;
-}
-
-.geekzone-input {
-    outline: none;
-    border: 1px solid #00000025;
-    padding: 6px 10px;
-}
-
-.geekzone-input:hover {
-    outline: none;
-    border: 1px solid #00000050;
-    padding: 6px 10px;
-}
-
-.geekzone-input:focus {
-    outline: none;
-    border: 1px solid #000000aa;
-    padding: 6px 10px;
-}
-
-.geekzone-button:hover {
-    background-color: #0fca70;
-    border-radius: 50px;
-    border: 0;
-    padding: 6px 10px;
-    cursor: pointer;
-}
-
-.geekzone-button:active {
-    background-color: #21b36c;
-    border-radius: 50px;
-    border: 0;
-    padding: 6px 10px;
-}
-
-.geekzone-button.geekzone-button-full {
-    width: 100%;
-    padding: 12px;
-}
-
-.geekzone-grid-2 {
-    gap: 16px;
-    display: grid;
-    margin-bottom: 8px;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.geekzone-grid-3 {
-    gap: 16px;
-    display: grid;
-    margin-bottom: 8px;
-    grid-template-columns: repeat(3, 1fr);
-}
-
-.geekzone-grid-4 {
-    gap: 16px;
-    display: grid;
-    margin-bottom: 8px;
-    grid-template-columns: repeat(4, 1fr);
-}
-
-.geekzone-grid-5 {
-    gap: 16px;
-    display: grid;
-    margin-bottom: 8px;
-    grid-template-columns: repeat(5, 1fr);
-}
-
-.geekzone-grid-2 > div > img {
-    width: 100%;
-    height: 100%;
-    aspect-ratio: 16 / 9;
-}
-
-.geekzone-produit {
-    border: 1px solid darkgray;
-    padding: 16px;
-    text-decoration: none;
-    color: #000;
-}
-
-.geekzone-produit > * {
-    font-weight: normal;
-}
-
-.geekzone-produit > h1 {
-    font-size: 2.5em;
-    font-weight: bold;
-    margin: 8px 0 4px;
-}
-
-.geekzone-produit:hover {
-    border: 1px solid gray;
-}
-
-.geekzone-produit:active {
-    border: 1px solid #00000030;
 }

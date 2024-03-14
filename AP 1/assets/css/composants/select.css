@@ -1,0 +1,15 @@
+.geekzone-select {
+    background-color: transparent;
+    border: 1px solid #00000025;
+    padding: 6px 10px;
+}
+
+.geekzone-select:hover {
+    outline: none;
+    border: 1px solid #00000050;
+}
+
+.geekzone-select:active {
+    outline: none;
+    border: 1px solid #000000aa;
+}

@@ -1,0 +1,13 @@
+.geekzone-search-box {
+    border: 1px solid #00000025;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 8px;
+
+    transform: translateY(-32px);
+
+    width: calc(1000px - 34px);
+    margin: 0 auto;
+    background-color: white;
+}

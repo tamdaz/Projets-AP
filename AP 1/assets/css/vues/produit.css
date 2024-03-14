@@ -1,0 +1,24 @@
+.geekzone-produit {
+    border: 1px solid darkgray;
+    padding: 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+.geekzone-produit > * {
+    font-weight: normal;
+}
+
+.geekzone-produit > h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 8px 0 4px;
+}
+
+.geekzone-produit:hover {
+    border: 1px solid gray;
+}
+
+.geekzone-produit:active {
+    border: 1px solid #00000030;
+}
