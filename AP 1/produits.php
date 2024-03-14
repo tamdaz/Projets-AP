@@ -8,28 +8,30 @@
         <title>Geekzone</title>
     </head>
     <body>
+        <?php $produits = require "./données/produits.php" ?>
+        <?php $categories = require "./données/categories.php" ?>
+        <?php $villes = require "./données/villes.php" ?>
+
         <div class="page">
             <?php include "./composants/header.php" ?>
             <div style="background-color: #00E676; width: 100%; height: 200px"></div>
-            <div class="geekzone-search-box">
-                <input class="geekzone-input" type="text" placeholder="Que voulez-vous chercher ?" />
-                <select class="geekzone-input">
-                    <option default>Filtrer par catégorie</option>
-                </select>
-                <select class="geekzone-input">
-                    <option default>Filtrer par ville</option>
-                </select>
-                <button class="geekzone-button">Rechercher</button>
-            </div>
+            <?php include "./inclure/recherche.php" ?>
             <div class="geekzone-container">
                 <?php include "./composants/produit.php"; ?>
-                <?php $produits = require "./données/produits.php" ?>
+                <?php include "./inclure/fonctions/filtre.php" ?>
 
-                <div class="geekzone-grid-3">
-                    <?php foreach ($produits as $produit): ?>
-                        <?php echo creerProduit($produit) ?>
-                    <?php endforeach; ?>
-                </div>
+                <?php if (count($produits_filtres) !== 0): ?>
+                    <div class="geekzone-grid-3">
+                        <?php foreach ($produits_filtres as $produit): ?>
+                            <?php echo creerProduit($produit); ?>
+                        <?php endforeach; ?>
+                    </div>
+                <?php else: ?>
+                    <h1>Pas de résultats</h1>
+                    <p>
+                        Désolé, nous n'avons trouvé aucun produit qui correspond à votre attente. ;(
+                    </p>
+                <?php endif; ?>
             </div>
             <?php include "./composants/footer.php" ?>
         </div>
