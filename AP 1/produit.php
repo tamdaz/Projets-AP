@@ -47,7 +47,7 @@
 
                     $autres_produits = array_filter($produits, function ($autre_produit) use ($produit) {
                         return
-                            $autre_produit['id'] !== $_GET['id'] &&
+                            $autre_produit['id'] != $_GET['id'] &&
                             $produit['categorie'] === $autre_produit['categorie']
                         ;
                     });
