@@ -29,7 +29,7 @@
                 <?php else: ?>
                     <h1>Pas de résultats</h1>
                     <p>
-                        Désolé, nous n'avons trouvé aucun produit qui correspond à votre attente. ;(
+                        Désolé, nous n'avons trouvé aucun produit qui correspond à vos attentes ;(
                     </p>
                 <?php endif; ?>
             </div>

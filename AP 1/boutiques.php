@@ -17,21 +17,25 @@
                         <div>
                             <img
                                 src="<?= $boutique['imageBoutique'] ?>"
-                                alt="Boutique <?= $boutique['ville'] ?>"
-                            />
+                                alt="Boutique <?= $boutique['ville'] ?>" />
                         </div>
                         <div>
                             <ul>
-                            <li><p>Adresse: <?=
-                            $boutique['adresse'] ?></p></li>
-                            <li><p>Code postal: <?=
-                            $boutique['codePostal'] ?></p></li>
-                            <li><p>Ville: <?=
-                            $boutique['ville'] ?></p></li>
-                            <li><p>Numéro de téléphone: <?=
-                            $boutique['numeroTelephone'] ?></p></li>
-                            <li><p>Horaire: <?=
-                            $boutique['horaire'] ?></p></li>
+                                <li>
+                                    <p>Adresse: <?= $boutique['adresse'] ?></p>
+                                </li>
+                                <li>
+                                    <p>Code postal: <?= $boutique['codePostal'] ?></p>
+                                </li>
+                                <li>
+                                    <p>Ville: <?= $boutique['ville'] ?></p>
+                                </li>
+                                <li>
+                                    <p>Numéro de téléphone: <?= $boutique['numeroTelephone'] ?></p>
+                                </li>
+                                <li>
+                                    <p>Horaire: <?= $boutique['horaire'] ?></p>
+                                </li>
                             </ul>
                         </div>
                     </div>
