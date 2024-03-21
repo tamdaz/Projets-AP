@@ -19,8 +19,8 @@ return [
         'prix' => 9.9,
         'image' => 'mug-pac-man-chaud-froid.jpg',
         'categorie' => "cuisine",
-        'ville' => "Valence",
-        'code_postal' => "26000"
+        'ville' => "Clermont Ferrand",
+        'code_postal' => "63100"
     ], [
         'id' => 3,
         'nom' => 'Magnets fridgebook',
@@ -29,8 +29,8 @@ return [
         'prix' => 14.9,
         'image' => 'fridgebook-magnet-reseau-social-frigo.jpg',
         'categorie' => "cuisine",
-        'ville' => "Valence",
-        'code_postal' => "26000"
+        'ville' => "Clermont Ferrand",
+        'code_postal' => "63100"
     ], [
         'id' => 4,
         'nom' => 'Prise chargeur USB robinet',
@@ -49,8 +49,8 @@ return [
         'prix' => 17.9,
         'image' => 'souris-optique-pixel.jpg',
         'categorie' => "gadget",
-        'ville' => "Grenoble",
-        'code_postal' => "38000"
+        'ville' => "Lyon",
+        'code_postal' => "69000"
     ], [
         'id' => 6,
         'nom' => 'Stealth switch',
@@ -59,8 +59,8 @@ return [
         'prix' => 45.9,
         'image' => 'stealth-switch.jpg',
         'categorie' => "gadget",
-        'ville' => "Grenoble",
-        'code_postal' => "38000"
+        'ville' => "Lyon",
+        'code_postal' => "69000"
     ], [
         'id' => 7,
         'nom' => 'Powerball',
@@ -129,8 +129,8 @@ return [
         'prix' => 26.9,
         'image' => 'coque-iphone-4-decapsuleur.jpg',
         'categorie' => "portable",
-        'ville' => "Chambery",
-        'code_postal' => "73000"
+        'ville' => "Albertville",
+        'code_postal' => "73200"
     ], [
         'id' => 14,
         'nom' => 'Manette jeu pour écran tactile Istick',
@@ -159,8 +159,8 @@ return [
         'prix' => 9.9,
         'image' => 'mini-aspirateur-usb.jpg',
         'categorie' => "USB",
-        'ville' => "Annecy",
-        'code_postal' => "74000"
+        'ville' => "Lyon",
+        'code_postal' => "69000"
     ], [
         'id' => 17,
         'nom' => 'Ventilateur lumineux',
