@@ -8,10 +8,13 @@ if (empty($_GET['nom']) && empty($_GET['categorie']) && empty($_GET['ville'])) {
             strtolower($produit['categorie']) === strtolower($_GET['categorie']),
             str_starts_with(
                 strtolower($produit['nom']),
-                strtolower($_GET['nom'] ?? "")
+                strtolower($_GET['nom'])
             ),
-            strtolower($produit['ville']) === strtolower($_GET['ville'] ?? ""),
+            strtolower($produit['ville']) === strtolower($_GET['ville']),
         ];
+
+        if (!empty($_GET['categorie']) && !empty($_GET['nom']) && !empty($_GET['ville']))
+            return $filtrer_categorie && $recherche_produit && $recherche_ville;
 
         if (!empty($_GET['categorie']) && !empty($_GET['nom']))
             return $filtrer_categorie && $recherche_produit;
