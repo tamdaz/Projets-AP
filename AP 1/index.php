@@ -23,7 +23,7 @@
                 </p>
                 <div class="geekzone-grid-5 geekzone-group-chips">
                     <?php foreach ($categories as $categorie): ?>
-                        <a href="/produits.php?categorie=<?= $categorie ?>" class="geekzone-chips">
+                        <a href="/produits.php?nom=&categorie=<?= $categorie ?>&ville=" class="geekzone-chips">
                             <?= $categorie ?>
                         </a>
                     <?php endforeach; ?>
