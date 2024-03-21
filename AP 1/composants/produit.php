@@ -7,7 +7,9 @@ function creerProduit(array $produit)
         'image' => $imgUrl,
         'prix' => $prix,
         'nom' => $nom,
-        'categorie' => $categorie
+        'categorie' => $categorie,
+        'ville' => $ville,
+        'code_postal' => $code_postal
     ] = $produit;
 
     $prix = number_format($prix, 2, ',', ' ');
@@ -17,6 +19,8 @@ function creerProduit(array $produit)
             <img src='/assets/img/produits/{$categorie}/{$imgUrl}' width='100%' />
             <h1>{$prix} €</h1>
             <span>{$nom}</span>
+            <br />
+            <i>{$ville} - {$code_postal}</i>
         </a>
     ";
 }

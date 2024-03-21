@@ -9,7 +9,8 @@ return [
         'prix' => 8.9,
         'image' => 'glacons-tetris.jpg',
         'categorie' => "cuisine",
-        'ville' => "Valence"
+        'ville' => "Valence",
+        'code_postal' => "26000"
     ], [
         'id' => 2,
         'nom' => 'Mug Pac-Man chaud/froid',
@@ -18,7 +19,8 @@ return [
         'prix' => 9.9,
         'image' => 'mug-pac-man-chaud-froid.jpg',
         'categorie' => "cuisine",
-        'ville' => "Valence"
+        'ville' => "Valence",
+        'code_postal' => "26000"
     ], [
         'id' => 3,
         'nom' => 'Magnets fridgebook',
@@ -27,7 +29,8 @@ return [
         'prix' => 14.9,
         'image' => 'fridgebook-magnet-reseau-social-frigo.jpg',
         'categorie' => "cuisine",
-        'ville' => "Valence"
+        'ville' => "Valence",
+        'code_postal' => "26000"
     ], [
         'id' => 4,
         'nom' => 'Prise chargeur USB robinet',
@@ -36,7 +39,8 @@ return [
         'prix' => 24.9,
         'image' => 'prise-chargeur-usb-robinet.jpg',
         'categorie' => "gadget",
-        'ville' => "Grenoble"
+        'ville' => "Grenoble",
+        'code_postal' => "38000"
     ], [
         'id' => 5,
         'nom' => 'Souris optique pixel',
@@ -45,7 +49,8 @@ return [
         'prix' => 17.9,
         'image' => 'souris-optique-pixel.jpg',
         'categorie' => "gadget",
-        'ville' => "Grenoble"
+        'ville' => "Grenoble",
+        'code_postal' => "38000"
     ], [
         'id' => 6,
         'nom' => 'Stealth switch',
@@ -54,7 +59,8 @@ return [
         'prix' => 45.9,
         'image' => 'stealth-switch.jpg',
         'categorie' => "gadget",
-        'ville' => "Grenoble"
+        'ville' => "Grenoble",
+        'code_postal' => "38000"
     ], [
         'id' => 7,
         'nom' => 'Powerball',
@@ -63,7 +69,8 @@ return [
         'prix' => 35,
         'image' => 'powerball.jpg',
         'categorie' => "gadget",
-        'ville' => "Grenoble"
+        'ville' => "Grenoble",
+        'code_postal' => "38000"
     ], [
         'id' => 8,
         'nom' => 'Bonnet barbe',
@@ -72,7 +79,8 @@ return [
         'prix' => 32.9,
         'image' => 'bonnet-barbe.jpg',
         'categorie' => "mode",
-        'ville' => "Lyon"
+        'ville' => "Lyon",
+        'code_postal' => "69000"
     ], [
         'id' => 9,
         'nom' => 'Tee shirt détecteur wifi',
@@ -81,7 +89,8 @@ return [
         'prix' => 39.9,
         'image' => 't-shirt-detecteur-wifi.jpg',
         'categorie' => "mode",
-        'ville' => "Lyon"
+        'ville' => "Lyon",
+        'code_postal' => "69000"
     ], [
         'id' => 10,
         'nom' => 'Tee shirt coder',
@@ -90,7 +99,8 @@ return [
         'prix' => 15.5,
         'image' => 't-shirt-coder.jpg',
         'categorie' => "mode",
-        'ville' => "Lyon"
+        'ville' => "Lyon",
+        'code_postal' => "69000"
     ], [
         'id' => 11,
         'nom' => 'Tee shirt jeux vidéo',
@@ -99,7 +109,8 @@ return [
         'prix' => 17.9,
         'image' => 't-shirt-les-jeux-video-ont-ruine-ma-vie.jpg',
         'categorie' => "mode",
-        'ville' => "Lyon"
+        'ville' => "Lyon",
+        'code_postal' => "69000"
     ], [
         'id' => 12,
         'nom' => 'Mini ventilateur pour Iphone',
@@ -108,7 +119,8 @@ return [
         'prix' => 9.95,
         'image' => 'ventilo-pour-iphone.jpg',
         'categorie' => "portable",
-        'ville' => "Chambery"
+        'ville' => "Chambery",
+        'code_postal' => "73000"
     ], [
         'id' => 13,
         'nom' => 'Coque Iphone 4 décapsuleur',
@@ -117,7 +129,8 @@ return [
         'prix' => 26.9,
         'image' => 'coque-iphone-4-decapsuleur.jpg',
         'categorie' => "portable",
-        'ville' => "Chambery"
+        'ville' => "Chambery",
+        'code_postal' => "73000"
     ], [
         'id' => 14,
         'nom' => 'Manette jeu pour écran tactile Istick',
@@ -126,7 +139,8 @@ return [
         'prix' => 10.9,
         'image' => 'manette-jeu-pour-ecran-tactile-istick.jpg',
         'categorie' => "portable",
-        'ville' => "Chambery"
+        'ville' => "Chambery",
+        'code_postal' => "73000"
     ], [
         'id' => 15,
         'nom' => 'Chauffe-tasse biscuit',
@@ -135,7 +149,8 @@ return [
         'prix' => 11.5,
         'image' => 'chauffe-tasse-biscuit-usb.jpg',
         'categorie' => "USB",
-        'ville' => "Albertville"
+        'ville' => "Albertville",
+        'code_postal' => "73200"
     ], [
         'id' => 16,
         'nom' => 'Mini aspirateur',
@@ -144,7 +159,8 @@ return [
         'prix' => 9.9,
         'image' => 'mini-aspirateur-usb.jpg',
         'categorie' => "USB",
-        'ville' => "Annecy"
+        'ville' => "Annecy",
+        'code_postal' => "74000"
     ], [
         'id' => 17,
         'nom' => 'Ventilateur lumineux',
@@ -153,7 +169,8 @@ return [
         'prix' => 8.9,
         'image' => 'ventilateur-lumineux-usb.jpg',
         'categorie' => "USB",
-        'ville' => "Clermont Ferrand"
+        'ville' => "Clermont Ferrand",
+        'code_postal' => "63100"
     ], [
         'id' => 18,
         'nom' => 'Frigo',
@@ -162,6 +179,7 @@ return [
         'prix' => 22.9,
         'image' => 'frigo-usb.jpg',
         'categorie' => "USB",
-        'ville' => "Clermont Ferrand"
+        'ville' => "Clermont Ferrand",
+        'code_postal' => "63100"
     ]
 ];
