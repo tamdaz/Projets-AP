@@ -6,6 +6,7 @@
 @import url("composants/button.css");
 @import url("composants/input.css");
 @import url("composants/select.css");
+@import url("composants/chips.css");
 
 @import url("representation/grille.css");
 
@@ -34,5 +35,15 @@ body {
     flex-grow: 1;
     width: 1000px;
     padding: 32px 0;
+    margin: 0 auto;
+}
+
+.geekzone-full-screen-hero {
+    width: 75%;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: 0 auto;
 }

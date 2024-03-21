@@ -11,33 +11,23 @@
     <body>
         <div class="page">
             <?php include "./composants/header.php" ?>
-            <div class="geekzone-container">
-                <h1>Bienvenue sur Geekzone</h1>
-                <html>  
-  <head>
-      <title>
-            Geekzone
-      </title>                                  
-  <style>
-body{
- background-color:black;
-}
-</style>  
-   </head>
+            <?php $categories = include "./données/categories.php" ?>
 
-    <body>
-<center>   
-
-  <h1>
-       <font color="#00FF16">Geekzone</font>
-  </h1>     
-<hr color="white" size="10"></hr>
-  
-  <font color="white" size="4pt">PLONGE DANS L'UNIVERS DES JEUX VIDEO<br>
-                                ET<br>
-                                 VIS DES AVENTURES INCROYABLES AVEC NOS SUPER EQUIPEMENTS</font>
-
-<center><img src="GeekZone-logo.png"></center>
+            <div class="geekzone-full-screen-hero">
+                <h1 style="margin: 0 0 8px 0; font-size: 64px">
+                    Bienvenue sur Geekzone
+                </h1>
+                <p style="font-weight: regular; margin: 0; padding: 0; font-size: 24px">
+                    Plongez dans l'univers des jeux vidéos et vivez des aventures incroyables
+                    avec nos super équipements.
+                </p>
+                <div class="geekzone-grid-5 geekzone-group-chips">
+                    <?php foreach ($categories as $categorie): ?>
+                        <a href="/produits.php?categorie=<?= $categorie ?>" class="geekzone-chips">
+                            <?= $categorie ?>
+                        </a>
+                    <?php endforeach; ?>
+                </div>
             </div>
             <?php include "./composants/footer.php" ?>
         </div>
