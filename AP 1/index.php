@@ -18,7 +18,7 @@
                     Bienvenue sur Geekzone
                 </h1>
                 <p style="font-weight: regular; margin: 0; padding: 0; font-size: 24px">
-                    Plongez dans l'univers des jeux vidéos et vivez des aventures incroyables
+                    Plongez dans l'univers des accessoires et vivez des aventures incroyables
                     avec nos super équipements.
                 </p>
                 <div class="geekzone-grid-5 geekzone-group-chips">
