@@ -1,0 +1,26 @@
+.geekzone-button {
+    background-color: #00E676;
+    border-radius: 50px;
+    border: 0;
+    padding: 6px 10px;
+}
+
+.geekzone-button:hover {
+    background-color: #0fca70;
+    border-radius: 50px;
+    border: 0;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+
+.geekzone-button:active {
+    background-color: #21b36c;
+    border-radius: 50px;
+    border: 0;
+    padding: 6px 10px;
+}
+
+.geekzone-button.geekzone-button-full {
+    width: 100%;
+    padding: 12px;
+}

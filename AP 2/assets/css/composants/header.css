@@ -1,0 +1,32 @@
+.geekzone-header {
+    background-color: #000;
+    color: white;
+    padding: 16px 32px;
+
+    display: flex;
+    position: relative;
+}
+
+.geekzone-header > .geekzone-logo {
+    position: absolute;
+    width: 128px;
+}
+
+.geekzone-header > nav {
+    display: flex;
+    margin: 0;
+    gap: 16px;
+}
+
+.geekzone-header > nav > a {
+    text-decoration: none;
+    color: white;
+}
+
+.geekzone-header > nav > a:hover {
+    opacity: 0.8;
+}
+
+.geekzone-header > nav > a:active {
+    opacity: 0.6;
+}
